@@ -3,7 +3,7 @@ let container = document.getElementById('container');
 function createTimeBlocks(){
     let timeBlockDiv = document.createElement("div");
 
-    for (let i=9; i<17; i++){
+    for (let i=9; i<= 17; i++){
         let parentDiv = document.createElement("div");
         parentDiv.style.display = 'flex';
 
